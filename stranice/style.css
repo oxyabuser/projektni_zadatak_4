@@ -1,0 +1,76 @@
+
+@font-face  {
+    font-family: 'gas';
+    src: url(MatkoJajcanin.ttf) format(truetype);
+}
+
+h1 {
+    font-family: 'gas';
+}
+
+body {
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgb(156, 63, 242), rgb(224, 224, 81));
+    background-repeat: no-repeat;
+    min-height: 100%;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+li {
+    display: inline;
+    background-color: blueviolet;
+    padding: 15px;
+    border-radius: 10px 5px 10px;
+}
+
+li a {
+    font-size: 15px;
+    color: black;
+}
+
+li a:hover {
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.galerija {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.slike {
+    box-sizing: border-box;
+    flex-basis: calc(33.333% - 20px); /* 33.333% širine minus razmak */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.slike img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.slike p {
+    margin: 10px 0 0;
+    font-size: 16px;
+    color: #333;
+}
